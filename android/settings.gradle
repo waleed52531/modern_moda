@@ -16,9 +16,8 @@ pluginManagement {
     }
 
     plugins {
-        // Use Android Gradle Plugin 7.4.x to remain compatible with Flutter tooling that relies on the legacy OutputFile API
-        id "com.android.application" version "7.4.2"
-        id "org.jetbrains.kotlin.android" version "1.8.22"
+        id "com.android.application" version "8.3.2"
+        id "org.jetbrains.kotlin.android" version "1.9.22"
         id "dev.flutter.flutter-plugin-loader" version "1.0.0"
     }
 }
